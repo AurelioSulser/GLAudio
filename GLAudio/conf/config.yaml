@@ -1,6 +1,0 @@
-
-defaults:
-  - dataset: zinc_transformer #citeseer, cora, cornell, peptides-struct, peptides-struct_lstm, pubmed, texas, wisconsin, zinc, zinc_lstm, zinc_transformer
-
-num_runs: 1 # number of runs to average evaluation metrics over
-model: 'glaudio_transformer' # 'glaudio_transformer' or 'glaudio_lstm' or 'glaudio' or 'graphcon' or 'gcn' or 'gcn_res_conn'
