@@ -1,4 +1,4 @@
-# glaudio
+# GLAudio
 
 ## Prerequisites
 
