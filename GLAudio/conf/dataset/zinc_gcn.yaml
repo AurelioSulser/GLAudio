@@ -1,0 +1,30 @@
+# @package _global_
+
+# Fixed constants of the dataset
+name: zinc
+task: graph_regression
+num_node_features: 1
+output_dim: 1
+
+#training parameters
+num_epochs: 1000
+weight_decay: 0
+lr: 5e-3
+split: 0
+activation: 'leaky_relu'
+batch_size: 128
+gradient_clipping: False
+
+#model parameters
+normalize: True
+self_loops: True
+hidden_dim: 150 # 
+hidden_gcn_dim: 40
+dropout_rate: 0.0
+L: 3
+N: 100
+h: 0.02
+initial_processing: True
+
+#loss function and metrics
+loss_fn: 'l1'

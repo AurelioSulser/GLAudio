@@ -1,0 +1,31 @@
+# @package _global_
+
+# Fixed constants of the dataset
+name: PascalVOC-SP
+task: node_classification
+num_node_features: 14
+output_dim: 21
+
+
+#training parameters
+batch_size: 32
+num_epochs: 1000
+weight_decay: 0.0
+lr: 0.0005
+split: 0
+activation: 'relu'
+gradient_clipping: False
+
+#model parameters
+normalize: True
+self_loops: False
+hidden_dim: 128
+dropout_rate: 0.0
+L: 6
+N: 8
+h: 0.2
+
+initial_processing: False
+
+#loss function and metrics
+loss_fn: 'weighted_cross_entropy'
